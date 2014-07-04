@@ -1,0 +1,83 @@
+﻿<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>QUIT</tag>
+        <one-of>
+          <item> quit exit </item>
+          <item> exit quit </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>MOVE</tag>
+        <one-of>
+          <item> move </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>STOP</tag>
+        <one-of>
+          <item> stop </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TRACK</tag>
+        <one-of>
+          <item> try tracking </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>STOPTRACKING</tag>
+        <one-of>
+          <item> stop tracking </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>HANDTOGETHER</tag>
+        <one-of>
+          <item> move together </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>HANDSEPARATELY</tag>
+        <one-of>
+          <item> move separately </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CHANGEPLAYER</tag>
+        <one-of>
+          <item> change player </item>
+          <item> switch player </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>SWITCHOBJECT</tag>
+        <one-of>
+          <item> switch object </item>
+          <item> change object </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>ACCURATEMOVEMENT</tag>
+        <one-of>
+          <item> accurate movement </item>
+          <item> accurate </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>NORMALMOVEMENT</tag>
+        <one-of>
+          <item> normal movement </item>
+          <item> normal </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DEBUG</tag>
+        <one-of>
+          <item> debug mode </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

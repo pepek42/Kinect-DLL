@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kinect DLL", "Kinect DLL\Kinect DLL.vcxproj", "{4708123E-69FA-4453-B4D7-39F121F8B6BD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kinect Application", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{8F2B628D-A0C2-4C5C-8BA3-F84C2AAE4B2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4708123E-69FA-4453-B4D7-39F121F8B6BD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4708123E-69FA-4453-B4D7-39F121F8B6BD}.Debug|Win32.Build.0 = Debug|Win32
+		{4708123E-69FA-4453-B4D7-39F121F8B6BD}.Release|Win32.ActiveCfg = Release|Win32
+		{4708123E-69FA-4453-B4D7-39F121F8B6BD}.Release|Win32.Build.0 = Release|Win32
+		{8F2B628D-A0C2-4C5C-8BA3-F84C2AAE4B2B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F2B628D-A0C2-4C5C-8BA3-F84C2AAE4B2B}.Debug|Win32.Build.0 = Debug|Win32
+		{8F2B628D-A0C2-4C5C-8BA3-F84C2AAE4B2B}.Release|Win32.ActiveCfg = Release|Win32
+		{8F2B628D-A0C2-4C5C-8BA3-F84C2AAE4B2B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
